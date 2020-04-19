@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Plus</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Plus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="9.5" y1="0" x2="9.5" y2="19" id="Path-13" stroke="#F59BFF" stroke-width="2"></line>
+        <line x1="0" y1="9.5" x2="19" y2="9.5" id="Path-14" stroke="#F59BFF" stroke-width="2"></line>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Seed</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="64" cy="66" r="50"></circle>
+        <filter x="-22.5%" y="-22.5%" width="145.0%" height="145.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Seed" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="fill">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <path d="M30,75 C36.1859768,98.029249 49.5193101,111.73661 70,116.122083 L21.8197293,129 L-4,32.8779172 L44.1802707,20 C28.5407801,33.6374177 23.8140232,51.970751 30,75 Z" id="colour" fill="#FFE1A2" mask="url(#mask-2)"></path>
+    </g>
+</svg>

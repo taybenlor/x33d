@@ -1,0 +1,19 @@
+{
+  "name": "seedgame",
+  "version": "1.0.0",
+  "description": "A game built for Ludum Dare Game Jam",
+  "main": "src/index.js",
+  "scripts": {
+    "serve": "parcel index.html",
+    "build": "parcel build index.html",
+    "clean": "rm -rf dist/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Taylor",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "seedrandom": "^3.0.5",
+    "three": "^0.115.0"
+  }
+}

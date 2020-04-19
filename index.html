@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>X33D</title>
+		<link rel="stylesheet" href="./style/index.css">
+	</head>
+  <body>
+    <header id="header">
+      <div id="title-group" hidden>
+        <h1>X33D</h1>
+        <svg width="64px" height="3px" viewBox="0 0 64 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <polyline stroke="#F59BFF" points="0 0 0 3 64 3 64 0"></polyline>
+            </g>
+        </svg>
+        <h2>Hello <span data-fill="user"></span></h2>
+      </div>
+      <div id="nav-group" hidden>
+        <a href="#machine" class="selected">Machine</a>
+        <a href="#gallery">Gallery</a>
+      </div>
+      <div id="right-group" hidden>
+        <a href="#help">Help</a>
+      </div>
+    </header>
+    <main id="screen-start">
+      <button id="begin">
+        Begin
+      </button>
+    </main>
+    <main id="screen-home" hidden>
+      <div id="home-header">
+        <h1>X33D</h1>
+        <svg id="home-header-underline" width="128px" height="5px" viewBox="0 0 128 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <polyline stroke="#F59BFF" stroke-width="2" points="0 0 0 5 128 5 128 0"></polyline>
+          </g>
+        </svg>
+        <h2>Hello <span data-fill="user"></span></h2>
+      </div>
+
+      <div id="seed-zone">
+      </div>
+
+      <div id="home-info" class="info">
+        <p>
+          Hello, <span data-fill="user"></span>.
+          This machine has generated three X33Ds.
+          Each is unique to your device.
+          Take them, grow them, BR33D new X33Ds.
+          Then share what you create.
+        </p>
+      </div>
+      <div id="home-action">
+        <a href="#machine">
+          Operate Machine
+        </a>
+      </div>
+    </main>
+    <main id="screen-machine" hidden>
+      <div id="seed-list-container">
+        <h1>X33Ds</h1>
+        <seed-list id="seed-list"></seed-list>
+      </div>
+      <seed-machine id="left-seed-machine"></seed-machine>
+      <seed-machine id="right-seed-machine"></seed-machine>
+
+      <div id="combiner">
+        <svg width="383px" height="35px" viewBox="0 0 383 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="combine-lines" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <polyline id="Path-11" stroke="#FFFFFF" points="0 0 0 17 195 17 199 17 383 17 383 0"></polyline>
+                <line x1="190.5" y1="17" x2="190.5" y2="34.5" id="Path-12-Copy" stroke="#FFFFFF"></line>
+            </g>
+        </svg>
+        <button id="breed-button">
+          <svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g id="Plus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <line x1="9.5" y1="0" x2="9.5" y2="19" id="Path-13" stroke="#F59BFF" stroke-width="2"></line>
+                  <line x1="0" y1="9.5" x2="19" y2="9.5" id="Path-14" stroke="#F59BFF" stroke-width="2"></line>
+              </g>
+          </svg>
+          BR33D
+        </button>
+      </div>
+
+      <div id="new-seed" hidden>
+        <div id="new-seed-modal">
+          <h1>BR33D SUCCESS</h1>
+          <div id="new-seed-inputs">
+            <seed-item id="new-seed-left"></seed-item>
+            <svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Plus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <line x1="9.5" y1="0" x2="9.5" y2="19" id="Path-13" stroke="#F59BFF" stroke-width="2"></line>
+                    <line x1="0" y1="9.5" x2="19" y2="9.5" id="Path-14" stroke="#F59BFF" stroke-width="2"></line>
+                </g>
+            </svg>
+            <seed-item id="new-seed-right"></seed-item>
+          </div>
+          <seed-display></seed-display>
+          <button>
+            Collect
+          </button>
+        </div>
+      </div>
+    </main>
+    <main id="screen-gallery" hidden>
+
+    </main>
+    <main id="screen-help" hidden>
+      <div id="help-info" class="info">
+        <p>
+          Each X33D encodes its own unique way of growing.
+        </p>
+        <p>
+          Collect a X33D to retrieve it's child X33Ds.
+          Some X33Ds produce more children than others.
+          With each child there is a small chance of mutation.
+        </p>
+        <p>
+          BR33D your X33Ds to combine their attributes. 
+          BR33Ding has a large chance of mutation.
+        </p>
+        <p>
+          Burn your X33D to get rid of it.
+        </p>
+        <p>
+          Share your best X33Ds in the public gallery.
+        </p>
+        <p>
+          If you <em>really</em> want to you can reset the game.
+          It will wipe everything and give you a new user.
+          Just click <a href="#reset" style="color: var(--pink)">here</a>.
+        </p>
+      </div>
+    </main>
+
+    <audio id="audio" preload src="./assets/theme.mp3" loop>
+    <audio id="note_1" preload src="./assets/note_1.mp3">
+    <audio id="note_2" preload src="./assets/note_2.mp3">
+    <audio id="note_3" preload src="./assets/note_2.mp3">
+    <audio id="tick_1" preload src="./assets/tick_1.mp3">
+    <audio id="tick_2" preload src="./assets/tick_2.mp3">
+    <audio id="tick_3" preload src="./assets/tick_4.mp3">
+    <audio id="bad" preload src="./assets/bad.mp3">
+    <audio id="brr" preload src="./assets/brrr.mp3">
+    <audio id="grow_1" preload src="./assets/grow_1.mp3">
+    <audio id="grow_2" preload src="./assets/grow_2.mp3">
+    <audio id="grow_3" preload src="./assets/grow_3.mp3">
+    <audio id="grow_4" preload src="./assets/grow_4.mp3">
+
+    <script src="./src/index.js"></script>
+  </body>
+</html>

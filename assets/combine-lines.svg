@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="383px" height="35px" viewBox="0 0 383 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>combine-lines</title>
+    <desc>Created with Sketch.</desc>
+    <g id="combine-lines" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polyline id="Path-11" stroke="#FFFFFF" points="0 0 0 17 195 17 199 17 383 17 383 0"></polyline>
+        <line x1="190.5" y1="17" x2="190.5" y2="34.5" id="Path-12-Copy" stroke="#FFFFFF"></line>
+    </g>
+</svg>
