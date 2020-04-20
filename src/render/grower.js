@@ -13,7 +13,7 @@ export class Grower {
   constructor(canvas, seed) {
     const backgroundString = seedExtractColours(seed).background;
     let backgroundInt = 0x02161D;
-    if (backgroundString.includes('ff')) {
+    if (backgroundString.includes('ff') || backgroundString.includes('FF') ) {
       backgroundInt = 0xffffff;
     }
     const scene = new THREE.Scene();

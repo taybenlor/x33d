@@ -146,7 +146,7 @@ const template = buildTemplate(`
         <button id="seed-button">
           Collect
         </button>
-        <button id="share-button">
+        <button id="share-button" hidden>
           Share
         </button>
       </div>
