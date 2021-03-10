@@ -14,6 +14,6 @@
   "dependencies": {
     "parcel-bundler": "^1.12.4",
     "seedrandom": "^3.0.5",
-    "three": "^0.115.0"
+    "three": "^0.125.0"
   }
 }
